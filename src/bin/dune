@@ -1,0 +1,4 @@
+(executable
+  (flags -opaque)
+  (libraries animate.lib unix animate)
+  (name main))
