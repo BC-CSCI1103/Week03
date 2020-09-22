@@ -4,9 +4,10 @@
 
 Robert Muller - Boston College
 
----
 
-## DRAFT Lecture Notes
+
+## Lecture Notes
+
 ## Week 3
 
 **Topics:**
@@ -267,7 +268,7 @@ The match expression makes it easy to work with values of type `shape`.
  *)
 let area shape =
   match shape with
-  | Circle radius -> Code.pi *. radius ** 2.0
+  | Circle radius -> Lib.pi *. radius ** 2.0
   | Rectangle (width, height) -> width *. height
 ```
 
@@ -365,10 +366,10 @@ val fiveOdds = [1; 3; 5; 7; 9]
 # let lincoln = ["Four"; "score"; "and"; "seven"; "years"; "ago"]
 val lincoln : string list = ["Four"; "score"; "and"; "seven"; "years"; "ago"]
 
-# Code.explode "Four";;
+# Lib.explode "Four";;
 - : char list = ['F'; 'o'; 'u'; 'r']
 
-# Code.implode ['s'; 'c'; 'o'; 'r'; 'e'];;
+# Lib.implode ['s'; 'c'; 'o'; 'r'; 'e'];;
 - : string = "score"
 
 # type fruit = Durian | Lemon | Mangosteen | Orange | Lychee;;
