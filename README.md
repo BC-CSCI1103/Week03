@@ -1,10 +1,8 @@
 #  CSCI 1103 Computer Science 1 Honors
 
-## Fall 2020
+## Fall 2022
 
 Robert Muller - Boston College
-
-
 
 ## Lecture Notes
 
@@ -22,9 +20,9 @@ Robert Muller - Boston College
 
 Last week we introduced the first of several built-in structured types in OCaml, the product type. This week we're going to focus on the dual of product types -- *sum types*. 
 
-> Heads up! Sum types are known by several (too many) different names, including *union types*, *disjoint unions* and *tagged unions*. They are sometimes referred to as *variant types*, *either/or types* or even *enum* or *enumeration types*. 
+> Heads up! Sum types are known by several (too many) different names, including *union types*, *disjoint unions* and *tagged unions*. They are sometimes referred to as *variant types*, *either/or types* or even *enum* or *enumeration types*.
 >
-> In universal algebra they are known as *co-products* because they are dual to *product types*. That's another story for another class.
+> In universal algebra they are known as [coproducts](https://en.wikipedia.org/wiki/Coproduct) because they are [dual](https://www.britannica.com/science/duality) to [product types](https://en.wikipedia.org/wiki/Direct_product_of_groups). That's another story for another class.
 
 Here is a simple example.
 
